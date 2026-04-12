@@ -1,4 +1,9 @@
 # doubleslit
+
+The douple slit experiment is very interesing: particles from a particle source are blocked and can only pass through a double slit. Behind the double slit is a screen that detects the particles. Intuitively we think a particle goes either through the left or the right slit, but what one finds is an intereference patterns that can only be explained if the particle is a wave and passes through both slits. This is the famous [particle-wave duality](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)
+
+![double slit experiment](doubeslit.png)
+
 Go code that visualizes the double slit experiment
 
 Intensity of fringes in Young's double slit experiment:
