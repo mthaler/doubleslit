@@ -14,7 +14,7 @@ where $I_{max}$ is the maximum intensity, $d$ is the distance of the center of t
 
 ```math
 \begin{aligned}
- x &= x_0 sin(\alpha)\\  
- y &= y_0 cos(\alpha)
+ x &= x_0 sin\theta\\  
+ y &= y_0 cos\theta
  \end{aligned}
 ```
