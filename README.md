@@ -11,7 +11,7 @@ where
 
 ```math
 \begin{aligned}
- x &= x0 sin(\alpha)\\  
- y &= y0 cos(\alpha)
+ x &= x_0 sin(\alpha)\\  
+ y &= y_0 cos(\alpha)
  \end{aligned}
 ```
