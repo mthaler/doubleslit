@@ -4,9 +4,7 @@ The douple slit experiment is very interesing: particles from a particle source 
 
 ![double slit experiment](doubleslit.png)
 
-Go code that visualizes the double slit experiment
-
-Intensity of fringes in Young's double slit experiment:
+The intensity of fringes in Young's double slit experiment is given by:
 
 $$
 I = I_{max} cos^2(\frac{\pi d sin \theta}{\lambda})
