@@ -6,3 +6,12 @@ Intensity of fringes in Young's double slit experiment:
 $$
 I = 4 I_0 cos^2(\frac{\alpha}{2})
 $$ 
+
+where
+
+```math
+\begin{aligned}
+ x &= x0 sin(\alpha)\\  
+ y &= y0 cos(\alpha)
+ \end{aligned}
+```
