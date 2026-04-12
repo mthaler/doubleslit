@@ -4,10 +4,10 @@ Go code that visualizes the double slit experiment
 Intensity of fringes in Young's double slit experiment:
 
 $$
-I = 4 I_0 cos^2(\frac{\alpha}{2})
+I = 4 I_{max} cos^2(\frac{\pi d sin(\theta)){\lambda})
 $$ 
 
-where
+where $I_{max}$ is the maximum intensity, $d$ is the distance of the center of the two slits, $\theta$ is the diffraction angle $\lambda§ is the wavelength. We can use
 
 ```math
 \begin{aligned}
