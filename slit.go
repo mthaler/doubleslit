@@ -2,6 +2,7 @@ package main
 
 import "math"
 
-func intensity(I0, a float64) float64 {
-	return 4 * I0 * math.Cos(a/2.0) * math.Cos(a/2.0)
+func intensity(Imax, d, th, l float64) float64 {
+
+	return Imax * math.Cos(math.Pi*d*math.Sin(th)/l) * math.Cos(math.Pi*d*math.Sin(th)/l)
 }
