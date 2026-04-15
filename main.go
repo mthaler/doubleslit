@@ -17,4 +17,15 @@ func main() {
 			Y: intensity(1, 2, x, 10),
 		})
 	}
+	b := bounds{
+		xmin: 0,
+		xmax: 10,
+		ymin: 0,
+		ymax: 10,
+	}
+	l := labels{
+		x: "x",
+		y: "intensity",
+	}
+	CreateLineplotPlot(points, "x - intensity", l, b, "intensity.png")
 }
