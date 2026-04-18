@@ -10,7 +10,7 @@ $$
 I = 4 I_0 cos^2(\frac{\pi d sin \theta}{\lambda})
 $$ 
 
-where $I_0}$ is the intensity of each indiviual slit, $d$ is the distance between the centers of the two slits, $\lambda$ is the wavelength of the light and $\theta$ is the angle of observation from the central maximum. We can use
+where $I_0$ is the intensity of each indiviual slit, $d$ is the distance between the centers of the two slits, $\lambda$ is the wavelength of the light and $\theta$ is the angle of observation from the central maximum. We can use
 
 ```math
 \begin{aligned}
