@@ -7,10 +7,10 @@ The douple slit experiment is very interesing: particles from a particle source 
 The intensity of fringes in Young's double slit experiment is given by:
 
 $$
-I = I_{max} cos^2(\frac{\pi d sin \theta}{\lambda})
+I = 4 I_0 cos^2(\frac{\pi d sin \theta}{\lambda})
 $$ 
 
-where $I_{max}$ is the maximum intensity, $d$ is the distance of the center of the two slits, $\theta$ is the diffraction angle $\lambda$ is the wavelength. We can use
+where $I_0}$ is the intensity of each indiviual slit, $d$ is the distance between the centers of the two slits, $\lambda$ is the wavelength of the light and $\theta$ is the angle of observation from the central maximum. We can use
 
 ```math
 \begin{aligned}
