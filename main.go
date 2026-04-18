@@ -11,7 +11,7 @@ func main() {
 		x := float64(i) / 100.0
 		points = append(points, plotter.XY{
 			X: x,
-			Y: intensity(1, 2, x, 0.1),
+			Y: intensity(x, 0.5, 1, 5, 5e-7),
 		})
 	}
 	b := bounds{
@@ -21,8 +21,8 @@ func main() {
 		ymax: 10,
 	}
 	l := labels{
-		x: "x",
+		x: "y",
 		y: "intensity",
 	}
-	CreateLineplotPlot(points, "x - intensity", l, b, "intensity.png")
+	CreateLineplotPlot(points, "y - intensity", l, b, "intensity.png")
 }
