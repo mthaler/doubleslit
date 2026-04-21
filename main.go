@@ -8,17 +8,17 @@ func main() {
 	var points plotter.XYs
 
 	for i := -500; i <= 500; i++ {
-		x := float64(i) / 100.0
+		x := float64(i) / 1000.0
 		points = append(points, plotter.XY{
 			X: x,
-			Y: intensity(x, 0.5, 1, 5, 5e-7),
+			Y: intensity(x, 0.5, 1, 0.02, 5e-7),
 		})
 	}
 	b := bounds{
-		xmin: 0,
-		xmax: 10,
+		xmin: -0.5,
+		xmax: 0.5,
 		ymin: 0,
-		ymax: 10,
+		ymax: 5,
 	}
 	l := labels{
 		x: "y",
