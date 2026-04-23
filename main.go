@@ -11,7 +11,7 @@ func main() {
 		x := float64(i) / 1000.0
 		points = append(points, plotter.XY{
 			X: x,
-			Y: intensity(x, 0.5, 1, 0.02, 5e-7),
+			Y: intensity(x, 0.5, 1, 0.02, 0.001),
 		})
 	}
 	b := bounds{

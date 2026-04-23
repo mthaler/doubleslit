@@ -4,8 +4,17 @@ import (
 	"math"
 )
 
-func intensity(y, y0, I0, d, l float64) float64 {
+func intensity(y, y0, d, l, b float64) float64 {
 	th := math.Acos(y / y0)
 	i := math.Cos(math.Pi * d * math.Sin(th) / l)
-	return 4 * I0 * i * i
+	diff := sinc(math.Pi * b * math.Sin(th) / l)
+	return i * i * diff * diff
+}
+
+func sinc(a float64) float64 {
+	if a != 0 {
+		return math.Sin(a) / a
+	} else {
+		return 1.0
+	}
 }
