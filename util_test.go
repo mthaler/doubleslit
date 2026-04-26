@@ -1,12 +1,15 @@
 package main
 
-import "testing"
+import (
+	"math"
+	"testing"
+)
 
 var sincTests = []struct {
 	in       float64
 	expected float64
 }{
-	{0.0, 1.0},
+	{0.0, 1.0}, {math.Pi, 0.0},
 }
 
 func TestSinc(t *testing.T) {
