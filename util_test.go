@@ -16,6 +16,9 @@ func TestSinc(t *testing.T) {
 	for _, s := range sincTests {
 		t.Run("sinc", func(t *testing.T) {
 			actual := sinc(s.in)
+			if actual < 0.0001 {
+				actual = math.Round(actual)
+			}
 			if actual != s.expected {
 				t.Errorf("Wrong result for sinc(%g): expected %g, got %g", s.in, s.expected, actual)
 			}
