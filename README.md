@@ -4,7 +4,7 @@ The douple slit experiment is very interesing: particles from a particle source 
 
 ![double slit experiment](doubleslit.png)
 
-The [intensity of fringes}(https://physics.stackexchange.com/questions/838698/what-is-the-proper-formula-for-intensity-of-light-in-youngs-double-slit-experim) in Young's double slit experiment is given by:
+The [intensity of fringes](https://physics.stackexchange.com/questions/838698/what-is-the-proper-formula-for-intensity-of-light-in-youngs-double-slit-experim) in Young's double slit experiment is given by:
 
 $$
 I = 4 I_0 cos^2(\frac{\pi d sin \theta}{\lambda})
