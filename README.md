@@ -18,3 +18,7 @@ where $I_{max}$ is the maxiumum intensity, $d$ is the distance between the cente
  y &= y_0 cos\theta
  \end{aligned}
 ```
+
+The result for the intensity is:
+
+![intensity](intensity.png)
