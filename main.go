@@ -7,11 +7,11 @@ import (
 func main() {
 	var points plotter.XYs
 
-	for i := -1000; i <= 1000; i++ {
+	for i := -100000; i <= 100000; i++ {
 		x := float64(i) / 1000.0
 		points = append(points, plotter.XY{
 			X: x,
-			Y: intensity(x, 10, 50, 1, 1, 1),
+			Y: intensity(x, 10, 50, 10, 1, 1),
 		})
 	}
 	b := bounds{
