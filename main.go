@@ -7,7 +7,7 @@ import (
 func main() {
 	var points plotter.XYs
 
-	for i := -100000; i <= 100000; i++ {
+	for i := -1000; i <= 1000; i++ {
 		x := float64(i) / 1000.0
 		points = append(points, plotter.XY{
 			X: x,
@@ -15,10 +15,10 @@ func main() {
 		})
 	}
 	b := bounds{
-		xmin: -100,
-		xmax: 100,
+		xmin: -1,
+		xmax: 1,
 		ymin: 0,
-		ymax: 0.2,
+		ymax: 1,
 	}
 	l := labels{
 		x: "y",
