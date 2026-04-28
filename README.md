@@ -7,10 +7,10 @@ The douple slit experiment is very interesing: particles from a particle source 
 The [intensity of fringes](https://physics.stackexchange.com/questions/838698/what-is-the-proper-formula-for-intensity-of-light-in-youngs-double-slit-experim) in Young's double slit experiment is given by:
 
 $$
-I = 4 I_0 cos^2(\frac{\pi d sin \theta}{\lambda})
+I = I_{max} cos^2(\frac{\pi d sin \theta}{\lambda}) sinc^2(\frac{\pi b sin(\theta)}{\lambda})
 $$ 
 
-where $I_0$ is the intensity of each indiviual slit, $d$ is the distance between the centers of the two slits, $\lambda$ is the wavelength of the light and $\theta$ is the angle of observation from the central maximum. We can use
+where $I_{max}$ is the maxiumum intensity, $d$ is the distance between the centers of the two slits, $\lambda$ is the wavelength of the light and $\theta$ is the angle of observation from the central maximum. We can use
 
 ```math
 \begin{aligned}
