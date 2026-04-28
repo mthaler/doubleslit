@@ -10,7 +10,7 @@ $$
 I = I_{max} cos^2(\frac{\pi d sin \theta}{\lambda}) sinc^2(\frac{\pi b sin(\theta)}{\lambda})
 $$ 
 
-where $I_{max}$ is the maxiumum intensity, $d$ is the distance between the centers of the two slits, $\lambda$ is the wavelength of the light and $\theta$ is the angle of observation from the central maximum. We can use
+where $I_{max}$ is the maxiumum intensity, $d$ is the distance between the centers of the two slits, $b$ is the width of the slits, $\lambda$ is the wavelength of the light and $\theta$ is the angle of observation from the central maximum. We can use
 
 ```math
 \begin{aligned}
